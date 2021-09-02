@@ -1,4 +1,21 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #searchBar{
   display: flex;
   background-color: red;
+  width: 100%;
+  @include flex-center();
+}
+form{
+  background-color: rebeccapurple;
+ .search-input{
+   height: 2.50em;
+   width: 16.5em;
+   outline: none;
+   border: none;
+   border-radius: 0.42em;
+ } 
 }
