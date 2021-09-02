@@ -1,9 +1,10 @@
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100vh;
+  font-family: 'Raleway',sans-serif;
 }
 
 a {
@@ -13,4 +14,12 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#container-app{
+  display: block;
+  width: 800px;
+  height: 100vh;
+  margin: auto;
+  background-color: antiquewhite;
 }
