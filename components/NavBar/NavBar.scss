@@ -1,3 +1,5 @@
+$font-Bold: 'Montserrat';
+
 @mixin flex-center {
   display: flex;
   align-items: center;
@@ -14,9 +16,11 @@ nav{
     margin: 0;
     padding: 0;
     width: 100%;
+    @include flex-center();
+    margin-left: 5%;
   }
   li{
     list-style: none;
-    margin-left: 5%;
+    font-family: $font-Bold;
   }
 }
