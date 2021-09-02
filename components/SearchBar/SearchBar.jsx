@@ -1,6 +1,9 @@
 
-export const SearchBar = ()=>{
+export const SearchBar = (handleFunc) => {
   return(<div id='searchBar'>
-     <p>salut</p>
+     <form className="search-input">
+       <input type="text" name='user-search' id='user-search' />
+     </form>
+     <button onClick={handleFunc}>Rechercher</button>
   </div>)
 }

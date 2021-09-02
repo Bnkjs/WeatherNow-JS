@@ -6,7 +6,6 @@ import { SearchBar } from '../components/SearchBar/SearchBar'
 
 export default function Home() {
   return (<div id="container-app">
-      <SearchBar/>
       <Header/>
   </div>
   )  
