@@ -5,12 +5,10 @@
 }
 #searchBar{
   display: flex;
-  background-color: red;
   width: 100%;
   @include flex-center();
 }
 form{
-  background-color: rebeccapurple;
  .search-input{
    height: 2.50em;
    width: 16.5em;
