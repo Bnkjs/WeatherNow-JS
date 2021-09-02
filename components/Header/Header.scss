@@ -7,7 +7,7 @@ $font-Bold: 'Montserrat';
 }
 header{
   width: 100%;
-  height: auto;
+  height: 50vh;
   background-color: aquamarine;
   @include flex-center-column();
   .header-title,.header-content{

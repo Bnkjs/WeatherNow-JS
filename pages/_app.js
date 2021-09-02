@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../components/Header/header.scss'
+import '../components/Header/Header.scss'
 import '../components/SearchBar/SearchBar.scss'
 import '../components/NavBar/NavBar.scss'
 
