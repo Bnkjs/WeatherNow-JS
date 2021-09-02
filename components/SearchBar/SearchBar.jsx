@@ -1,8 +1,14 @@
 
-export const SearchBar = (handleFunc) => {
+export const SearchBar = ({inputChange, handleFunc}) => {
   return(<div id='searchBar'>
-     <form className="search-input">
-       <input type="text" name='user-search' id='user-search' />
+     <form id="form-weather">
+       <input 
+        type="text" 
+        name='search-input' 
+        placeholder='Paris, Antalya, Lomé...' 
+        className='search-input' 
+        onChange={inputChange} 
+       />
      </form>
      <button onClick={handleFunc}>Rechercher</button>
   </div>)
